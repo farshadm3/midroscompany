@@ -1,0 +1,64 @@
+@import "variables";
+
+/* basic */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  font-size: $font-size-md;
+}
+
+.btn {
+  @include btn($main-theme-green-color, 100%);
+  padding: 1.5rem 4rem;
+}
+
+.amount-btn {
+  @include amountBtn(#fff);
+}
+
+.x-btn {
+  @include xBtn;
+}
+
+.filter {
+  @include flexContainer(space-between, center);
+  background-color: #f2f3f2;
+  padding: 0.4rem 2.4rem;
+  border-radius: 5rem;
+
+  span {
+    font-size: $font-size-md;
+    color: $secondary-text-color;
+    padding-right: 1rem;
+  }
+
+  .filter-x-icon {
+    display: none;
+  }
+}
+
+/* end of basics*/

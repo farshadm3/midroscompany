@@ -1,0 +1,65 @@
+/* login & sign up */
+.section-login,
+.section-signup {
+  width: 100%;
+  padding: 0 2.05rem;
+}
+
+.header-carrot-icon {
+  width: 100%;
+  margin: 8rem 0 10rem;
+  text-align: center;
+}
+
+.login-text-container,
+.signup-text-container {
+  margin-bottom: 4rem;
+}
+
+.login-title,
+.signup-title {
+  font-size: $font-size-xxl;
+  margin-bottom: 0.4rem;
+}
+
+.login-description,
+.signup-description {
+  font-size: $font-size-md;
+  color: $secondary-text-color;
+}
+
+.login-btn-container {
+  margin: 6rem 0 1rem;
+}
+
+.signup-container {
+  text-align: center;
+  font-size: $font-size-basic;
+
+  a {
+    color: $main-theme-green-color;
+  }
+}
+
+.privacy-container {
+  text-align: center;
+  margin: 2rem 0;
+
+  p {
+    font-size: $font-size-basic;
+    color: $secondary-text-color;
+  }
+
+  a {
+    color: $main-theme-green-color;
+  }
+}
+
+.signup-container {
+  margin-top: 1rem;
+}
+
+.form div {
+  margin-bottom: 2rem;
+}
+/* end of login & sign up */

@@ -1,0 +1,32 @@
+/* bottom menu */
+.section-bottom-menu {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-radius: 1.5rem 1.5rem 0 0;
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px -12px 37px rgba(230, 235, 243, 0.5);
+}
+
+.bottom-menu-container {
+  @include flexContainer(space-between, center);
+  width: 100%;
+}
+
+.menu-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+
+  svg {
+    padding-bottom: 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    color: #181725;
+  }
+}
+
+/* end of bottom menu */

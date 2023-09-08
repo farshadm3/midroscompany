@@ -1,0 +1,52 @@
+/* fail */
+
+.section-failure {
+  width: 90%;
+  background-color: #fff;
+  z-index: 2;
+  margin: auto;
+  padding: 3rem 2rem;
+  border-radius: 1.8rem;
+  position: relative;
+}
+
+.failure-img-container {
+  width: 100%;
+  margin: auto;
+
+  img {
+    display: block;
+    margin: auto;
+    object-fit: contain;
+  }
+}
+
+.failure-description-container {
+  text-align: center;
+  margin: 4rem 0;
+
+  h1 {
+    font-size: $font-size-xxl;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: $secondary-text-color;
+  }
+}
+
+.failure-buttons-container {
+  a {
+    display: block;
+    text-align: center;
+  }
+}
+
+.hide-section-btn-container {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: 2;
+}
+
+/* end of fail */

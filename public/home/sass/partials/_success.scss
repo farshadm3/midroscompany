@@ -1,0 +1,47 @@
+/* success*/
+.section-success {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7rem 2rem 6rem;
+}
+
+.success-icon-container {
+  width: 100%;
+  img {
+    object-fit: contain;
+    width: 100%;
+    padding-right: 3rem;
+  }
+}
+
+.success-description-container {
+  text-align: center;
+  h1 {
+    font-size: $font-size-xxl;
+  }
+
+  p {
+    font-size: $font-size-md;
+    color: $secondary-text-color;
+  }
+}
+
+.success-buttons-container {
+  width: 100%;
+  a {
+    display: block;
+    text-align: center;
+  }
+}
+
+.goto-home-btn {
+  margin-top: 2rem;
+  color: #181725;
+  font-size: $font-size-basic;
+}
+
+/* end of success*/

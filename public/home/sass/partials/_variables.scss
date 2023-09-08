@@ -1,0 +1,66 @@
+// font-sizes
+$font-size-basic: 1.4rem;
+$font-size-md: 1.6rem;
+$font-size-lg: 1.8rem;
+$font-size-xl: 2rem;
+$font-size-xxl: 2.6rem;
+
+// colors
+$main-theme-green-color: #53b175;
+$font-color-white: #fff9ff;
+$font-color-grey: #fcfcfcb2;
+$secondary-text-color: #7c7c7c;
+$secondary-background-color: #f2f3f2;
+$cart-border-color: #e2e2e2;
+
+// mixins
+@mixin btn(
+  $backgroundColor: $main-theme-green-color,
+  $width: 100%,
+  $color: #fff
+) {
+  background-color: $backgroundColor;
+  border-radius: 1.9rem;
+  border: none;
+  outline: none;
+  width: $width;
+  color: $color;
+  font-size: $font-size-lg;
+}
+
+@mixin flexContainer($justifyContent: center, $alignItems: center) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+@mixin amountBtn($backgroundColor: #fff, $color: $main-theme-green-color) {
+  width: 4rem;
+  height: 4rem;
+  background-color: $backgroundColor;
+  color: $color;
+  border: 0.1rem solid #e2e2e2;
+  border-radius: 1.7rem;
+  position: relative;
+
+  svg {
+    width: 1.7rem;
+    height: 1.7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@mixin xBtn() {
+  background: none;
+  border: none;
+  font-size: $font-size-md;
+}
+
+@mixin gridContainer() {
+  display: grid;
+  gap: 2.2rem 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
